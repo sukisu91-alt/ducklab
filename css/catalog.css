@@ -1,1 +1,21 @@
 
+.malvadopato{
+
+width: 300px;
+}
+
+.hermosopatito{
+    width: 300px;
+}
+
+.divertidopatito{
+    width: 300px;
+}
+
+.focuspatito{
+    width: 300px;
+    
+}
+main{
+    display: flexbox;
+}
