@@ -1,0 +1,52 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 120px;
+  padding: 80px 40px;
+  min-height: 400px;
+}
+.form-container {
+  background-color: antiquewhite;
+  border-radius: 15px;
+  padding: 40px 50px 50px 50px;
+  width: 300px;
+  margin-bottom: 500px;
+}
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+label {
+  font-size: 16px;
+  font-weight: 550;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+input[type="text"],
+input[type="email"] {
+  padding: 14px 18px;
+  border: 2px solid #E7E9EB;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.submit-button {
+  margin-top: 20px;
+  padding: 16px;
+  background-color: #6055F5;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.logo {
+  max-width: 300px;
+  border-radius: 20px;
+}
+.logo1{
+  width: 500px;
+  margin-top: 0px;
+}
