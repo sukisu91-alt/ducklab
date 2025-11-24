@@ -1,76 +1,80 @@
-main{
-    display: flex;
-    gap: 50px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    margin-bottom: 200px;
+main {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 200px;
 }
-   .imagenpatito{
-width: 300px;
-   }
-   .imagenpatitojs{
-    width: 300px;
-       }
-.botonespatito{
-    display: flex;
-    flex-direction: column;
-    margin-top: 40px;
-    gap: 20px;
-    width: 50%;
-    align-items: center;
-   padding-left: 80px;
+.catalogGrid {
+  display: flex;
+  gap: 30px;
 }
-    .precio{
-border-radius: 30px;
-padding: 17px 40px;
-background-color: #EADDFE;
-text-align: center;
-border: none;
-font-weight: bold;
-text-decoration:#4F378A ;
-   }
-   .descripcion-patito{
-    border-radius: 30px;
-padding: 17px 40px;
-background-color: #EADDFE;
-text-align: center;
-border: none;
-font-weight: bold;
-text-decoration:#4F378A ;
-white-space: nowrap;
-   }
-   .disponible{
-    border-radius: 30px;
-    padding: 17px 40px;
-    background-color: #EADDFE;
-    text-align: center;
-    border: none;
-    font-weight: bold;
-    text-decoration:#4F378A ;
+.imagenpatito {
+  width: 300px;
 }
-.botonespatitopython{
-    display: grid;
-    flex-direction: column;
-    width: 50%;
-    padding-top: 50px;
-   gap: 20px;
-   padding-left: 70px;
+.imagenpatitojs {
+  width: 300px;
 }
-.botonespatitojavascript{
-display: grid;
-flex-direction: column;
-width: 50%;
-padding-top: 50px;
-gap: 20px;
-padding-left: 70px;
-border-radius: 15px;
+.botonespatito {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 20px;
+  width: 50%;
+  align-items: center;
+  padding-left: 80px;
 }
-.botonespatitojava{
-    display: grid;
-    flex-direction: column;
-    width: 50%;
-    padding-top: 50px;
-    gap: 20px;
-    padding-left: 70px;
+.precio {
+  border-radius: 30px;
+  padding: 17px 40px;
+  background-color: #eaddfe;
+  text-align: center;
+  border: none;
+  font-weight: bold;
+  text-decoration: #4f378a;
+}
+.titlePatito {
+  border-radius: 30px;
+  padding: 17px 40px;
+  background-color: #eaddfe;
+  text-align: center;
+  border: none;
+  font-weight: bold;
+  text-decoration: #4f378a;
+  white-space: nowrap;
+}
+.disponible {
+  border-radius: 30px;
+  padding: 17px 40px;
+  background-color: #eaddfe;
+  text-align: center;
+  border: none;
+  font-weight: bold;
+  text-decoration: #4f378a;
+}
+.botonespatitopython {
+  display: grid;
+  flex-direction: column;
+  width: 50%;
+  padding-top: 50px;
+  gap: 20px;
+  padding-left: 70px;
+}
+.botonespatitojavascript {
+  display: grid;
+  flex-direction: column;
+  width: 50%;
+  padding-top: 50px;
+  gap: 20px;
+  padding-left: 70px;
+  border-radius: 15px;
+}
+.botonespatitojava {
+  display: grid;
+  flex-direction: column;
+  width: 50%;
+  padding-top: 50px;
+  gap: 20px;
+  padding-left: 70px;
 }
