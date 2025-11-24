@@ -8,7 +8,7 @@ main {
 }
 .catalogGrid {
   display: flex;
-  gap: 30px;
+  gap: 20px;
 }
 .imagenpatito {
   width: 300px;
