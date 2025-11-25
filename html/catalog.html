@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,26 +8,27 @@
     <link rel="stylesheet" href="../css/catalog.css">
     <link rel="stylesheet" href="../styleencabezado.css">
 </head>
+
 <body>
-      <header>
-      <div class="cajamadre">
-        <img src="../assets/logo.png" alt="imagen" class="logo" />
-        <div class="cajaboton">
-          <button class="botoninicio" type="button"><a href="#">⍟ INICIO </a></button>
-          <button class="botoninicio" type="button"><a href="./html/catalog.html">⍟ CATÁLOGO</a></button>
-          <button class="botoninicio" type="button"><a href="./html/contact.html">⍟ CONTACTO</a></button>
+    <header>
+        <div class="cajamadre">
+            <img src="../assets/logo.png" alt="imagen" class="logo" />
+            <div class="cajaboton">
+                <button class="botoninicio" id="bt-id" type="button">⍟ INICIO</button>
+                <button class="botoninicio" id="bt-catalog" type="button">⍟ CATÁLOGO</button>
+                <button class="botoninicio" id="bt-contact" type="button">⍟ CONTACTO</button>
+            </div>
+            <div class="cajabuscar">
+                <input type="text" placeholder=" 🔎Buscar" class="🔎buscar" />
+                <img src="../assets/carrito.png" alt="carrito" class="carrito" />
+                <img src="../assets/mensajito.png" alt="mensaje" class="mensaje" />
+            </div>
         </div>
-        <div class="cajabuscar">
-          <input type="text" placeholder=" 🔎Buscar" class="🔎buscar" />
-          <img src="../assets/carrito.png" alt="carrito" class="carrito" />
-          <img src="../assets/mensajito.png" alt="mensaje" class="mensaje" />
-        </div>
-      </div>
     </header>
-    <body>
+
     <main>
         <section id="catalogGrid" class="catalogGrid"></section>
-        <!--<section class="patitoruby">
+            <!--<section class="patitoruby">
             <img src="../assets/ruby..png" alt="patitoruby" class="imagenpatito">
             <section class="botonespatito">
                 <button class="descripcion-patito">Ruby Duck</button>
@@ -59,15 +61,16 @@
             </section>
         </section>
     -->
-    
     </main>
+    <footer>
+        <p>Escribenos y haremos realidad tu patito soñado</p>
+        <p>© 2025 • Privacy • Politics</p>
+    </footer>
+
     <script type="module" src="../JavaScript/info-ducks.js"></script>
     <script type="module" src="../JavaScript/catalogs.js"></script>
+    <script type="module" src="../JavaScript/navbar.js"></script>
+    <script type="module" src="../JavaScript/detail.js"></script>
 </body>
-</main>
-    <footer>
-      <p>Escribenos y haremos realidad tu patito soñado</p>
-      <p>© 2025 • Privacy • Politics</p>
-    </footer>
-</body>
+
 </html>
