@@ -1,17 +1,14 @@
 body {
-
   margin: 0px;
   background-image: url(./assets/Background.png);
   background-size: cover;
 }
-
 
 .cajamadre {
   display: inline-flex;
   background-color: yellow;
   /*padding: 45px;*/
   width: 100%;
-
 }
 
 .logo {
@@ -23,7 +20,7 @@ body {
 .cajaboton {
   display: flex;
   max-height: 200px;
-  margin-left: 100px;  
+  margin-left: 100px;
   margin-top: 50px;
   margin-bottom: 50px;
   gap: 120px;
@@ -32,7 +29,7 @@ body {
 
 .botoninicio {
   width: 120px;
-  font-family: Georgia, 'Times New Roman', Times, serif;  
+  font-family: Georgia, "Times New Roman", Times, serif;
   border-radius: 15px;
   background: rgb(103, 80, 164);
   color: white;
@@ -44,12 +41,11 @@ a {
   font-size: auto;
 }
 
-.cajabuscar{
+.cajabuscar {
   display: flex;
   margin-left: 90px;
   margin-top: 30px;
-  margin-bottom: 30px; 
-
+  margin-bottom: 30px;
 }
 
 .carrito {
@@ -70,24 +66,23 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  top: 90;
+  top: auto;
   justify-content: center;
   color: beige;
   font-size: 18px;
   text-align: center;
 }
 
-
 .objetivo {
   display: flex;
   flex-direction: column;
   font-size: 15px;
   color: black;
-  background-color: #F3EDF7;
+  background-color: #f3edf7;
   margin: 90px;
   border-radius: 55px;
   text-align: center;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 h1 {
@@ -95,7 +90,6 @@ h1 {
   flex-direction: column;
   font-size: 90px;
   align-items: center;
- 
 
   color: black;
   animation: colorcambio 3s infinite alternate;
@@ -103,18 +97,17 @@ h1 {
 
 @keyframes colorcambio {
   0% {
-    color: #FFD400;
+    color: #ffd400;
   }
 
   50% {
-    color: #6B4EFF;
+    color: #6b4eff;
   }
 
   100% {
     color: #000000;
   }
 }
-
 
 .tituloconlogos {
   display: flex;
@@ -123,18 +116,16 @@ h1 {
   align-items: center;
   padding-left: 30px;
   padding-right: 30px;
-  background-color: #F3EDF7;
-  justify-content:space-between;
+  background-color: #f3edf7;
+  justify-content: space-between;
   margin-top: 100px;
   border-radius: 36px;
   flex-direction: row;
   margin: 40px;
-  
 }
 
 .patito1 {
   width: 180px;
   padding: 0px;
   border-radius: 50px;
-
 }
