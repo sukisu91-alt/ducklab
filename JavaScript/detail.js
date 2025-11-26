@@ -1,26 +1,27 @@
 import { ducksDatabase } from "./info-ducks.js";
-//import { duckImg, duckTitle } from "./catalogs.js";
 
 const detailDuck = document.getElementById("containerDuck");
 
-//detailDuck.addEventListener("click", function(event){
-//    event.target.closest(detailDuck);
-//})
-//console.log(detailDuck);
+function showSelectedDuck(){
 
-//const duckId = eve
-//const selectedDuck = ducksDatabase.find(duck => duck.id === duckId)
+    const urlGetId = new URLSearchParams(window.location.search);
+    const getId = parseInt(urlGetId.get("id"));
+    const selectedDuck = ducksDatabase.find(duck => duck.id === getId);
 
-function showSelectedDuck(selectedDuck){
     if (selectedDuck){
-        return `
-        <img src="${ducksDatabase.image}" alt="${ducksDatabase.duckName}" id="selectedImg">
+        let descriptionDuck = "";
+        Object.values(selectedDuck.description).forEach(descText => {
+            descriptionDuck += `<li>${descText}</li>`;
+        })
+        detailDuck.innerHTML=
+        `
+        <img src="${selectedDuck.image}" alt="${selectedDuck.duckName}" id="selectedImg">
             <div class="detail-complet">
                 <div class="title">
-                    <h3 id="selectedTitle">Patito ${ducksDatabase.duckName}</h3>
+                    <h3 id="selectedTitle">Patito ${selectedDuck.duckName}</h3>
                 </div>
                 <div class="price">
-                    <p>Precio: ${ducksDatabase.price}</p>
+                    <p>Precio: ${selectedDuck.price}</p>
                 </div>
                 <div class="stock">
                     <p class="msjStock" id="stockNow">Stock Disponible</p>
@@ -33,10 +34,7 @@ function showSelectedDuck(selectedDuck){
                 <div class="description">
                     <p>Descripción detallada:</p>
                     <ul>
-                        <li>${ducksDatabase.description[0]}</li>
-                        <li>${ducksDatabase.description[1]}</li>
-                        <li>${ducksDatabase.description[2]}</li>
-                        <li>${ducksDatabase.description[3]}</li>
+                       ${descriptionDuck}
                     </ul>
                 </div>
             </div>
@@ -44,12 +42,5 @@ function showSelectedDuck(selectedDuck){
     }
 }
 
+showSelectedDuck();
 
-//function showDuck(){
-  //detailDuck.innerHTML = showSelectedDuck;
-//}
-
-//duckImg.addEventListener("click",function(event){
-  //  event.target
-//});
-//duckTitle.addEventListener("click", showDuck);
