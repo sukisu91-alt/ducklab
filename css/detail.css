@@ -2,6 +2,7 @@
     width: 100%;
     max-width: 100%;
 }
+
 .container{
     display: flex;
     width: 100%;
@@ -12,10 +13,12 @@
     justify-content: center;
     gap: 5px;
 }
+
 .title h3{
     text-align: right;
     margin-bottom: 15px;
 }
+
 h3{
     background-color: grey;
     color: white;
@@ -23,14 +26,15 @@ h3{
     width: fit-content;
     padding: 10px;
 }
+
 .container img{
     width: 40%;
     max-width: 300px;
     padding-left: 40px;
     margin-left: 50px;
     margin-bottom: 30px;
-    /*float: left;*/
 }
+
 .detail-complet {
     width: 60%;
     margin-bottom: 30px;
@@ -38,6 +42,64 @@ h3{
     margin-right: 20px;
     /*float: right;*/
 }
+
 main{
     margin-bottom: 200px;
 }
+
+.container-quantity {
+    display: inline-block;
+    background-color: #4159e0;
+    color: white;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.btn-quantity {
+    display: inline-block;
+    background-color: #4159e0;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.2s;
+}
+
+.quantitytoBuy {
+    padding: 0 20px;
+    font-size: 16px;
+}
+
+.container-buy {
+    display: flex;
+    gap: 35px;
+}
+
+.bt-add {
+    display: inline-block;
+    color: rebeccapurple;
+    width: fit-content;
+    padding: 15px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px;
+    font-weight: bold;
+    background-color: #ffd400;
+    cursor: pointer;
+}
+
+.container-add {
+    margin-bottom: 15px;
+}
+
+.msjStock {
+    color: rgb(50, 193, 50);
+}
+
+
+

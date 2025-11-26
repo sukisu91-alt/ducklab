@@ -2,6 +2,9 @@ import { ducksDatabase } from "./info-ducks.js";
 
 const detailDuck = document.getElementById("containerDuck");
 
+let shoppingCartDucks = [];
+
+
 function showSelectedDuck(){
 
     const urlGetId = new URLSearchParams(window.location.search);
@@ -23,16 +26,19 @@ function showSelectedDuck(){
                 <div class="price">
                     <p>Precio: ${selectedDuck.price}</p>
                 </div>
-                <div class="stock">
-                    <p class="msjStock" id="stockNow">Stock Disponible</p>
-                    <div class="quantity" id="container-quantity">
-                        <button class="decrease" id="bt-decrease">-</button>
-                        <input class="quantityBuy" id="quantityDucks" type="number" min=1>
-                        <button class="increase" id="bt-increase">+</button>
+                <p class="msjStock" id="stockNow"><b>Stock Disponible</b></p>
+                <div class="container-buy">
+                    <div class="container-quantity" id="quantity">
+                        <button class="btn-quantity decrease" id="bt-decrease">-</button>
+                        <span class="quantitytoBuy" id="quantityDucks">1</span>
+                        <button class="btn-quantity increase" id="bt-increase">+</button>
+                    </div>                   
+                    <div class="container-add" id="add-cart">
+                        <button type="button" class="bt-add" id="bt-add-cart">⍟ Añadir al carrito</button>
                     </div>
                 </div>
                 <div class="description">
-                    <p>Descripción detallada:</p>
+                    <p><b>Descripción detallada:</b></p>
                     <ul>
                        ${descriptionDuck}
                     </ul>
@@ -43,4 +49,6 @@ function showSelectedDuck(){
 }
 
 showSelectedDuck();
+
+
 
