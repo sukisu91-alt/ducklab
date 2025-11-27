@@ -26,7 +26,7 @@ resultsContainer.addEventListener("click", (event) => {
 
   const id = clicked.dataset.id;
 
-  window.location.href = `./html/detail.html?id=${id}`;
+  window.location.href = `/html/detail.html?id=${id}`;
 });
 
 inputBusqueda.addEventListener("input", (event) => {
