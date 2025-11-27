@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DUCKLAB</title>
+    <link rel="stylesheet" href="../styleencabezado.css" />
+    <link rel="stylesheet" href="../css/thanks.css" />
+
+  </head>
+  <body>
+    <header>
+      <div class="cajamadre">
+        <img src="../assets/logo.png" alt="imagen" class="logo" />
+        <div class="cajaboton">
+          <button class="botoninicio" id="bt-id" type="button">⍟ INICIO</button>
+          <button class="botoninicio" id="bt-catalog" type="button">⍟ CATÁLOGO</button>
+          <button class="botoninicio" id="bt-contact" type="button">⍟ CONTACTO</button>
+        </div>
+        <div class="cajabuscar">
+          <input type="text" placeholder="🔎 Buscar" class="busqueda" />
+          <img src="../assets/carrito.png" alt="carrito" class="carrito" />
+          <img src="../assets/mensajito.png" alt="mensaje" class="mensaje" />
+        </div>
+      </div>
+    </header>
+  
+    <main>
+  
+      <div class="box" id="receipt-box">
+        <div id="receipt">
+          <div><b>RECIBO DE PAGO</b></div>
+          <div>Patito Phyton: 2,90€</div>
+          <div>Detalle: Patito sereno y minimalista </div>
+          <div>Cantidad: 3 unidades </div>
+          <div> IVA (21%): 1,83€</div>
+          <div>Subtotal: 8,70€</div>
+          <div><b>💸Total a pagar: 10,53€</b></div>
+        </div>
+      </div>
+
+      <div class="box hidden" id="thanks-box">
+        <div id="thanks">
+          <div>GRACIAS POR TU COMPRA! 😎 
+            <br>¡Tu patito está en camino!</br> </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Escríbenos y haremos realidad tu patito soñado</p>
+      <p>© 2025 • Privacy • Politics</p>
+    </footer>
+    <script type="module" src="../JavaScript/thanks.js"></script>
+  
+  </body>
+</html>
