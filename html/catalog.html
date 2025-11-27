@@ -18,13 +18,14 @@
           <button class="botoninicio" id="bt-contact" type="button">⍟ CONTACTO</button>
         </div>
         <div class="cajabuscar">
-          <input type="text" placeholder=" 🔎Buscar" class="🔎buscar" />
+          <input type="text" id="search" placeholder="🔎 Buscar" class="busqueda" />
           <button id="btCart" class="icon-button">
-            <img src="../assets/carrito.png" alt="carrito" class="carrito" />
+            <img src="../assets/carrito.png" alt="Carrito" class="carrito" />
           </button>
           <button id="btMessage" class="icon-button">
-            <img src="../assets/mensajito.png" alt="mensaje" class="mensaje" />
+            <img src="../assets/mensajito.png" alt="Mensaje" class="mensaje" />
           </button>
+          <section id="searchResults"></section>
         </div>
       </div>
     </header>
@@ -41,5 +42,6 @@
     <script type="module" src="../JavaScript/catalogs.js"></script>
     <script type="module" src="../JavaScript/navbar.js"></script>
     <script type="module" src="../JavaScript/detail.js"></script>
+    <script type="module" src="./JavaScript/search-index.js"></script>
   </body>
 </html>

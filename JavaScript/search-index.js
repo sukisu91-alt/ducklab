@@ -5,7 +5,7 @@ const resultsContainer = document.getElementById("searchResults");
 
 function createSmallSuggestion(duck) {
   return `
-   <div class="suggestion" data-id="${duck.id}">
+    <div class="suggestion" data-id="${duck.id}">
       🔍 ${duck.duckName}
     </div>
   `;
@@ -31,10 +31,12 @@ resultsContainer.addEventListener("click", (event) => {
 
 inputBusqueda.addEventListener("input", (event) => {
   const text = event.target.value.toLowerCase();
+
   if (text === "") {
     resultsContainer.innerHTML = "";
     return;
   }
+
   const filtered = ducksDatabase.filter((duck) => duck.duckName.toLowerCase().includes(text));
 
   renderResults(filtered);

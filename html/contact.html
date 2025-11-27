@@ -17,9 +17,14 @@
           <button class="botoninicio" id="bt-contact" type="button">⍟ CONTACTO</button>
         </div>
         <div class="cajabuscar">
-          <input type="text" placeholder=" :lente_a_destra:Buscar" class=":lente_a_destra:buscar" />
-          <img src="../assets/carrito.png" alt="carrito" class="carrito" />
-          <img src="../assets/mensajito.png" alt="mensaje" class="mensaje" />
+          <input type="text" id="search" placeholder="🔎 Buscar" class="busqueda" />
+          <button id="btCart" class="icon-button">
+            <img src="../assets/carrito.png" alt="Carrito" class="carrito" />
+          </button>
+          <button id="btMessage" class="icon-button">
+            <img src="../assets/mensajito.png" alt="Mensaje" class="mensaje" />
+          </button>
+          <section id="searchResults"></section>
         </div>
       </div>
     </header>
@@ -44,7 +49,8 @@
       <p>Escribenos y haremos realidad tu patito soñado</p>
       <p>© 2025 • Privacy • Politics</p>
     </footer>
-    <script src="../JavaScript/navbar.js"></script>
-    <script src="../JavaScript/contact.js"></script>
+    <script type="module" src="../JavaScript/navbar.js"></script>
+    <script type="module" src="/JavaScript/contact.js"></script>
+    <script type="module" src="./JavaScript/search-index.js"></script>
   </body>
 </html>
