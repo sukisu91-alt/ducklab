@@ -129,3 +129,35 @@ h1 {
   padding: 0px;
   border-radius: 50px;
 }
+.icon-button {
+  background-color: yellow;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+#searchResults {
+  background: white;
+  border-radius: 10px;
+  max-width: 250px;
+  margin-left: 20px;
+  margin-top: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 999;
+}
+
+.suggestion {
+  padding: 8px 12px;
+  cursor: pointer;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+.suggestion:last-child {
+  border-bottom: none;
+}
+
+.suggestion:hover {
+  background-color: #f2f2f2;
+}

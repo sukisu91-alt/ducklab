@@ -12,14 +12,18 @@
       <div class="cajamadre">
         <img src="../assets/logo.png" alt="imagen" class="logo" />
         <div class="cajaboton">
-          <button class="botoninicio" type="button"><a href="#">⍟ INICIO </a></button>
-          <button class="botoninicio" type="button"><a href="./html/catalog.html">⍟ CATÁLOGO</a></button>
-          <button class="botoninicio" type="button"><a href="./html/contact.html">⍟ CONTACTO</a></button>
+          <button class="botoninicio" id="bt-id" type="button">⍟ INICIO</button>
+          <button class="botoninicio" id="bt-catalog" type="button">⍟ CATÁLOGO</button>
+          <button class="botoninicio" id="bt-contact" type="button">⍟ CONTACTO</button>
         </div>
         <div class="cajabuscar">
           <input type="text" placeholder=" 🔎Buscar" class="🔎buscar" />
-          <img src="../assets/carrito.png" alt="carrito" class="carrito" />
-          <img src="../assets/mensajito.png" alt="mensaje" class="mensaje" />
+          <button id="btCart" class="icon-button">
+            <img src="../assets/carrito.png" alt="carrito" class="carrito" />
+          </button>
+          <button id="btMessage" class="icon-button">
+            <img src="../assets/mensajito.png" alt="mensaje" class="mensaje" />
+          </button>
         </div>
       </div>
     </header>
@@ -36,5 +40,6 @@
       <p>Escribenos y haremos realidad tu patito soñado</p>
       <p>© 2025 • Privacy • Politics</p>
     </footer>
+    <script type="module" src="../JavaScript/navbar.js"></script>
   </body>
 </html>
