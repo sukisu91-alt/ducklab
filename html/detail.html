@@ -1,77 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DuckStore</title>
-    <link rel="stylesheet" href="../css/detail.css">
-    <link rel="stylesheet" href="../styleencabezado.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../css/detail.css" />
+    <link rel="stylesheet" href="../styleencabezado.css" />
+  </head>
+  <body>
     <header>
+      <header>
         <div class="cajamadre">
-            <img src="../assets/logo.png" alt="imagen" class="logo">
-            <div class="cajaboton">
-                <button class="botoninicio" type="button"> <a href="../index.html">⍟ INICIO </a></button>
-                <button class="botoninicio" type="button"> <a href="../html/catalog.html">⍟ CATÁLOGO</a></button>
-                <button class="botoninicio" type="button"> <a href="../html/contact.html">⍟ CONTACTO</a></button>
-            </div>
-            <div class="cajabuscar">
-                <input type="text" placeholder=":mag_right: Buscar">
-                <img src="../assets/carrito.png" alt="carrito" class="carrito">
-                <img src="../assets/mensajito.png" alt="mensaje" class="mensaje">
-            </div>
+          <img src="../assets/logo.png" alt="imagen" class="logo" />
+          <div class="cajaboton">
+            <button class="botoninicio" id="bt-id" type="button">⍟ INICIO</button>
+            <button class="botoninicio" id="bt-catalog" type="button">⍟ CATÁLOGO</button>
+            <button class="botoninicio" id="bt-contact" type="button">⍟ CONTACTO</button>
+          </div>
+          <div class="cajabuscar">
+            <input type="text" id="search" placeholder="🔎 Buscar" class="busqueda" />
+            <button id="btCart" class="icon-button">
+              <img src="../assets/carrito.png" alt="Carrito" class="carrito" />
+            </button>
+            <button id="btMessage" class="icon-button">
+              <img src="../assets/mensajito.png" alt="Mensaje" class="mensaje" />
+            </button>
+            <section id="searchResults"></section>
+          </div>
         </div>
+      </header>
     </header>
     <main class="detail">
-        <div class="container" id="containerDuck">
-            <!--
-            <img src="../assets/python.png" alt="duck Python">
-            <div class="detail-complet">
-                <div class="title">
-                    <h3>Patito Python</h3>
-                </div>
-                <div class="price">
-                    <p>Precio: desde 0,60€ hasta 3,20€</p>
-                </div>
-                <div class="stock">
-                    <p>Stock disponible:</p>
-                    <ul>
-                        <li>Pequeño (0,60 €) - 35 unidades</li>
-                        <li>Mediano (1,80 €) - 22 unidades</li>
-                        <li>Grande (3,20 €) - 10 unidades</li>
-                    </ul>
-                </div>
-                <div class="description">
-                    <p>Descripción detallada:</p>
-                    <ul>
-                        <li>El patito Python representa la calma y la elegancia del código limpio.</li>
-                        <li>Fabricado con silicona suave, es el compañero perfecto para quienes disfrutan de la
-                            simplicidad bien pensada.</li>
-                        <li>Ideal para programadores Zen, amantes de Jupyter, y quienes creen que: "Simple is better
-                            than complex".</li>
-                        <li>Consejo del pato: "Explícame tu código y verás cómo los bugs se van flotando"</li>
-                    </ul>
-                </div>
-            </div> -->
-        </div>
+      <div class="container" id="containerDuck"></div>
     </main>
     <script type="module" src="../JavaScript/detail.js"></script>
-</body>
-<footer>
-    <p>Escribenos y haremos realidad tu patito soñado </p>
+  </body>
+  <footer>
+    <p>Escribenos y haremos realidad tu patito soñado</p>
     <p>© 2025 • Privacy • Politics</p>
-</footer>
+  </footer>
+  <script type="module" src="../JavaScript/navbar.js"></script>
+  <script type="module" src="../JavaScript/search-index.js"></script>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-

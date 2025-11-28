@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="../styleencabezado.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacto</title>
-
   </head>
   <body>
     <header>
@@ -18,9 +17,14 @@
           <button class="botoninicio" id="bt-contact" type="button">⍟ CONTACTO</button>
         </div>
         <div class="cajabuscar">
-          <input type="text" placeholder=" 🔎Buscar" class="🔎buscar" />
-          <img src="../assets/carrito.png" alt="carrito" class="carrito" />
-          <img src="../assets/mensajito.png" alt="mensaje" class="mensaje" />
+          <input type="text" id="search" placeholder="🔎 Buscar" class="busqueda" />
+          <button id="btCart" class="icon-button">
+            <img src="../assets/carrito.png" alt="Carrito" class="carrito" />
+          </button>
+          <button id="btMessage" class="icon-button">
+            <img src="../assets/mensajito.png" alt="Mensaje" class="mensaje" />
+          </button>
+          <section id="searchResults"></section>
         </div>
       </div>
     </header>
@@ -28,15 +32,16 @@
       <section class="form-container">
         <form id="contact-form">
           <label for="Name">Name</label>
-          <input type="text" name="Name" placeholder="Name" />
+          <input type="text" name="Name" placeholder="Name" id="user-name" requiered />
           <label for="Surname">Surname</label>
-          <input type="text" name="Surname" placeholder="Surname" />
+          <input type="text" name="Surname" placeholder="Surname" id="user-lastname" requiered />
           <label for="Email">Email</label>
-          <input type="email" name="email" placeholder="Email" />
+          <input type="email" name="email" placeholder="Email" id="user-email" requiered />
           <label for="Message">Message</label>
-          <input type="text" name="text" placeholder="Your Message" />
+          <input type="text" name="text" placeholder="Your Message" id="user-message" required />
           <button type="submit" class="submit-button">Submit</button>
         </form>
+        <p id="form-message"></p>
       </section>
       <img class="logo1" src="../assets/logo.png" alt="Ducklab logo" />
     </main>
@@ -44,6 +49,8 @@
       <p>Escribenos y haremos realidad tu patito soñado</p>
       <p>© 2025 • Privacy • Politics</p>
     </footer>
-    <script src="../JavaScript/navbar.js"></script>
+    <script type="module" src="../JavaScript/navbar.js"></script>
+    <script type="module" src="../JavaScript/contact.js"></script>
+    <script type="module" src="../JavaScript/search-index.js"></script>
   </body>
 </html>
