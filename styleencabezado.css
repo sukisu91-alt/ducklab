@@ -129,3 +129,65 @@ h1 {
   padding: 0px;
   border-radius: 50px;
 }
+.icon-button {
+  background-color: yellow;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+#searchResults {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  padding: 5px 0;
+  z-index: 9999;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+#searchResults:empty {
+  display: none;
+}
+
+.cajabuscar {
+  display: flex;
+  margin-left: 90px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.suggestion {
+  padding: 8px 12px;
+  cursor: pointer;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+.suggestion:last-child {
+  border-bottom: none;
+}
+
+.suggestion:hover {
+  background-color: #f2f2f2;
+}
+
+.busqueda {
+  width: 220px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: white;
+  font-size: 15px;
+  border: 2px solid #9a7bff; /* morado */
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease;
+}
+
+.busqueda:focus {
+  outline: none;
+  border-color: #ffd400;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+}
