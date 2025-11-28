@@ -8,7 +8,7 @@ function createDuckCard(ducksDatabase) {
   <img src="${ducksDatabase.image}" alt="${ducksDatabase.duckName}"class="imagenpatito duck-link" id="selectedImg" data-id="${ducksDatabase.id}">
       <section class="botonespatito">
         <button type="button" class="titlePatito duck-link" data-id="${ducksDatabase.id}">${ducksDatabase.duckName}</button>
-        <button class="precio">Precio ${ducksDatabase.price}</button>
+        <button class="precio">Precio € ${ducksDatabase.price}</button>
         <button class="disponible">Disponible</button>
       </section>
     </section>
@@ -18,8 +18,6 @@ function createDuckCard(ducksDatabase) {
 
 function renderCatalog() {
   catalogGrid.innerHTML = ducksDatabase.map(createDuckCard);
-  
-  //Se ejecuta la función que escuchará los eventos
   setupDuckLinks();
 }
 

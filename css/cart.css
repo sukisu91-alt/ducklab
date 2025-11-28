@@ -35,3 +35,25 @@ h2 {
   padding: 20px;
   height: fit-content;
 }
+
+.container-quantity {
+  display: inline-block;
+  background-color: #4159e0;
+  color: white;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.btn-quantity {
+  display: inline-block;
+  background-color: #4159e0;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.2s;
+}
