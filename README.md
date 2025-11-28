@@ -43,27 +43,39 @@ El proyecto fue desarrollado por un equipo de 4 programadoras junior utilizando 
 
 ## 📁 Estructura del Proyecto
 ```
-ducklab/
-├── assets/              # Recursos visuales
-│   ├── logo.png
-│   └── ducks/           # Imágenes de productos
-├── css/                 # Hojas de estilo
+DUCKLAB/
+│
+├── assets/               → Imágenes y recursos gráficos (logo, patitos, iconos…)
+│
+├── css/                  → Hojas de estilo del proyecto
 │   ├── cart.css
 │   ├── catalog.css
+│   ├── contact.css
 │   ├── detail.css
-│   └── contact.css
-├── html/                # Páginas secundarias
-│   ├── catalog.html
-│   ├── detail.html
+│   ├── global.css
+│   └── thanks.css
+│
+├── html/                 → Páginas secundarias de la aplicación
 │   ├── cart.html
-│   └── contact.html
-├── JavaScript/          # Lógica de la aplicación
-│   ├── info-ducks.js    # Base de datos de productos
-│   ├── catalogs.js      # Renderizado del catálogo
-│   ├── navbar.js        # Navegación
-│   └── detail.js        # Página de detalle
-├── index.html           # Página principal
-└── styleencabezado.css  # Estilos globales
+│   ├── catalog.html
+│   ├── contact.html
+│   ├── detail.html
+│   └── thanks.html
+│
+├── JavaScript/            → Lógica de la aplicación organizada por funcionalidades
+│   ├── cart.js
+│   ├── catalogs.js
+│   ├── contact.js
+│   ├── detail.js
+│   ├── info-ducks.js      → Base de datos de patitos
+│   ├── navbar.js          → Navegación entre páginas
+│   ├── search-index.js    → Buscador en la página principal
+│   └── thanks.js
+│
+├── index.html             → Página principal del proyecto
+├── logo.png               → Imagen de marca (usada en README)
+├── README.md              → Documentación del proyecto
+└── styleencabezado.css    → Estilos globales del header y footer
 ```
 
 ---
@@ -78,7 +90,7 @@ ducklab/
 
 1. **Clona el repositorio**
 ```bash
-   git clone https://github.com/tu-usuario/ducklab.git
+   git clone [https://github.com/tu-usuario/ducklab.git]
    cd ducklab
 ```
 
@@ -99,12 +111,12 @@ ducklab/
 
 Este proyecto fue desarrollado por:
 
-| Desarrolladora | Rol | GitHub | LinkedIn |
-|----------------|-----|--------|----------|
-| **[Sukaina Hadani]** | Frontend Lead | [@https://github.com/sukisu91-alt](#) |
-| **[Geraldine Saco Ruíz]** | JavaScript Dev | [@(https://github.com/GeraldineSaco/HTML)](#) | 
-| **[Cristina Viejó]** | UI/UX Designer | [@github3](#) | 
-| **[Marie-Charlotte Doulcet]** | QA & Testing | [@github4](#) | 
+| Desarrolladora | Rol | GitHub | 
+|----------------|-----|--------|
+| **[Sukaina Hadani]** | Frontend Lead | [GitHub](https://github.com/sukisu91-alt) |
+| **[Geraldine Saco Ruíz]** | JavaScript Dev | [GitHub](https://github.com/GeraldineSaco) | 
+| **[Cristina Viejó]** | UI/UX Designer | [GitHub](https://github.com/krissvinti-ux) | 
+| **[Marie-Charlotte Doulcet]** | QA & Testing |[GitHub](https://github.com/Charlottedoulcet)| 
 
 > 💜 Proyecto desarrollado en el bootcamp **FemCoders** 2025
 
