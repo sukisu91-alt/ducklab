@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
     thanksBox.classList.add('hidden');
     
     setTimeout(function() {
-        console.log('Cambiando de recibo a gracias');
         receiptBox.classList.remove('visible');
         receiptBox.classList.add('hidden');
         thanksBox.classList.remove('hidden');
