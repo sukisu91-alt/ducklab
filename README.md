@@ -113,10 +113,10 @@ Este proyecto fue desarrollado por:
 
 | Desarrolladora | Rol | GitHub | 
 |----------------|-----|--------|
-| **[Sukaina Hadani]** | Frontend Lead | [GitHub](https://github.com/sukisu91-alt) |
-| **[Geraldine Saco Ruíz]** | JavaScript Dev | [GitHub](https://github.com/GeraldineSaco) | 
-| **[Cristina Viejó]** | UI/UX Designer | [GitHub](https://github.com/krissvinti-ux) | 
-| **[Marie-Charlotte Doulcet]** | QA & Testing |[GitHub](https://github.com/Charlottedoulcet)| 
+| **Sukaina Hadani** | Frontend Lead | [GitHub](https://github.com/sukisu91-alt) |
+| **Geraldine Saco Ruíz** | JavaScript Dev | [GitHub](https://github.com/GeraldineSaco) | 
+| **Cristina Viejó** | UI/UX Designer | [GitHub](https://github.com/krissvinti-ux) | 
+| **Marie-Charlotte Doulcet** | QA & Testing |[GitHub](https://github.com/Charlottedoulcet)| 
 
 > 💜 Proyecto desarrollado en el bootcamp **FemCoders** 2025
 
