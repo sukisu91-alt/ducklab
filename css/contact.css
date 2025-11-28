@@ -28,14 +28,14 @@ label {
 input[type="text"],
 input[type="email"] {
   padding: 14px 18px;
-  border: 2px solid #E7E9EB;
+  border: 2px solid #e7e9eb;
   border-radius: 10px;
   font-size: 15px;
 }
 .submit-button {
   margin-top: 20px;
   padding: 16px;
-  background-color: #6055F5;
+  background-color: #6055f5;
   color: white;
   border: none;
   border-radius: 10px;
@@ -46,7 +46,14 @@ input[type="email"] {
   max-width: 300px;
   border-radius: 20px;
 }
-.logo1{
+.logo1 {
   width: 500px;
   margin-top: 0px;
+}
+#form-message {
+  display: none;
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
 }

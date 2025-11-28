@@ -18,48 +18,21 @@
           <button class="botoninicio" id="bt-contact" type="button">⍟ CONTACTO</button>
         </div>
         <div class="cajabuscar">
-          <input type="text" placeholder=" 🔎Buscar" class="🔎buscar" />
-          <img src="../assets/carrito.png" alt="carrito" class="carrito" />
-          <img src="../assets/mensajito.png" alt="mensaje" class="mensaje" />
+          <input type="text" id="search" placeholder="🔎 Buscar" class="busqueda" />
+          <button id="btCart" class="icon-button">
+            <img src="../assets/carrito.png" alt="Carrito" class="carrito" />
+          </button>
+          <button id="btMessage" class="icon-button">
+            <img src="../assets/mensajito.png" alt="Mensaje" class="mensaje" />
+          </button>
+          <section id="searchResults"></section>
         </div>
       </div>
     </header>
 
     <main>
       <section id="catalogGrid" class="catalogGrid"></section>
-      <!--<section class="patitoruby">
-            <img src="../assets/ruby..png" alt="patitoruby" class="imagenpatito">
-            <section class="botonespatito">
-                <button class="descripcion-patito">Ruby Duck</button>
-                <button class="precio">Precio 2€</button>
-                <button class="disponible">Disponible</button>
-            </section>
-        </section>
-        <section class="patitopython">
-            <img src="../assets/python.png" alt="patitopython" class="imagenpatito">
-            <section class="botonespatito">
-                <button class="descripcion-patito">Python Duck</button>
-                <button class="precio">Precio 1€</button>
-                <button class="disponible">Disponible</button>
-            </section>
-        </section>
-        <section class="patitojavascript">
-            <img src="../assets/JavaScript.jpg" alt="patitojavascript" class="imagenpatitojs">
-            <section class="botonespatito">
-                <button class="descripcion-patito">JS Duck</button>
-                <button class="precio">Precio 3€</button>
-                <button class="disponible">Disponible</button>
-            </section>
-        </section>
-        <section class="patitojava">
-            <img src="../assets/Java.png" alt="patitojava" class="imagenpatito">
-            <section class="botonespatito">
-                <button class="descripcion-patito">Java Duck</button>
-                <button class="precio">Precio 4€</button>
-                <button class="disponible">Disponible</button>
-            </section>
-        </section>
-    --></main>
+    </main>
     <footer>
       <p>Escribenos y haremos realidad tu patito soñado</p>
       <p>© 2025 • Privacy • Politics</p>
@@ -69,5 +42,6 @@
     <script type="module" src="../JavaScript/catalogs.js"></script>
     <script type="module" src="../JavaScript/navbar.js"></script>
     <script type="module" src="../JavaScript/detail.js"></script>
+    <script type="module" src="../JavaScript/search-index.js"></script>
   </body>
 </html>
